@@ -140,6 +140,14 @@
     background-size: cover;
 }
 
+.max-w-426 {
+    max-width: 426px;
+}
+
+.h-1000 {
+    height: 1000px;
+}
+
 .img-box {
     max-width: 204px;
     border-radius: 12px;
@@ -190,7 +198,7 @@
 }
 
 .left-70 {
-    left: -70px;
+    left: -20px;
 }
 
 .mb-120 {
@@ -214,10 +222,6 @@
 
 .max-w-71 {
     max-width: 71px;
-}
-
-.max-w-100 {
-    max-width: 100px;
 }
 
 /***** DOWNLOAD SED APP *****/
@@ -344,6 +348,10 @@
     .top-86 {
         top: 75px;
     }
+
+    .left-70 {
+        left: -70px;
+    }
 }
 
 @media (max-width:991.98px) {
@@ -374,6 +382,6 @@
     }
 }
 
-.max-w-426 {
-    max-width: 426px;
+.rotate-30 {
+    transform: rotate(30%);
 }
