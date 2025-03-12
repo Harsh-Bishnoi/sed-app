@@ -234,6 +234,23 @@
     height: 40px;
     border-radius: 100px;
     background: linear-gradient(180deg, #2F4FB6 0%, #152350 100%);
+    transition: all 200ms linear;
+}
+
+.footer-circle:hover {
+    transform: scale(1.1);
+}
+
+.footer-link {
+    transition: all 200ms linear;
+}
+
+.footer-link:hover {
+    background: -webkit-linear-gradient(180deg,
+            #2F4FB6 0%,
+            #152350 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .line {
