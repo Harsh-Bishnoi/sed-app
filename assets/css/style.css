@@ -70,7 +70,7 @@
 
 .text-hover::before {
     content: '';
-    border-image-source: linear-gradient(90deg, rgba(41, 75, 120, 0) 0%, #294B78 50%, rgba(41, 75, 120, 0) 100%);
+    background: linear-gradient(90deg, #294b7800 0%, #294B78 50%, rgba(41, 75, 120, 0) 100%);
     position: absolute;
     bottom: 0px;
     width: 0;
@@ -207,6 +207,18 @@
 
 .pb-120 {
     padding-bottom: 120px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.max-w-71{
+    max-width: 71px;
+}
+
+.max-w-100{
+    max-width: 100px;
 }
 
 /***** DOWNLOAD SED APP *****/
