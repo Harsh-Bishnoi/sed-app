@@ -2,6 +2,7 @@
     /* font-family *****/
     --font-family-primary: "Poppins", sans-serif;
     --font-family-second: "Outfit", sans-serif;
+    --font-family-third: "Nunito", sans-serif;
     /***** font-size *****/
     --fs-sm: 12px;
     --fs-md: 28px;
@@ -14,6 +15,12 @@
     --color-blue: #294B78;
     --color-light-white: #FCFCFC;
     --footer-bg-light: #FBFBFB;
+    --color-red: #FF6D41;
+    --dark-red: #A40707;
+    --light-grey: #606360;
+    --light-black: #43434DCC;
+    --color-grey: #43434D;
+    --color-green: #01981C;
 }
 
 .font-family-primary {
@@ -22,6 +29,10 @@
 
 .font-family-second {
     font-family: var(--font-family-second);
+}
+
+.font-family-third {
+    font-family: var(--font-family-third);
 }
 
 /***** font-size *****/
@@ -42,6 +53,30 @@
 }
 
 /***** color *****/
+.color-red {
+    color: var(--color-red);
+}
+
+.color-green {
+    color: var(--color-green);
+}
+
+.light-black {
+    color: var(--light-black);
+}
+
+.color-grey {
+    color: var(--color-grey);
+}
+
+.light-grey {
+    color: var(--light-grey);
+}
+
+.dark-red {
+    color: var(--dark-red);
+}
+
 .color-dark-black {
     color: var(--color-dark-black);
 }
@@ -69,5 +104,6 @@
 @media (max-width:575.98px) {
     :root {
         --fs-lg: 32px;
+        --fs-xl: 34px;
     }
 }

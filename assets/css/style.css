@@ -1,6 +1,7 @@
 @import url(./root.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 .max-w-1240 {
     max-width: 1240px !important;
@@ -142,8 +143,70 @@
     background-size: cover;
 }
 
+.img-box {
+    width: 204px;
+    border-radius: 12px;
+    background-color: var(--color-white);
+    padding: 24px;
+}
+
+.child-box {
+    border-radius: 4px;
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    background: #FCF1F1;
+    border: 0.5px solid #A40707;
+}
+
+.child-box-2 {
+    border-radius: 4px;
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    background: #F3FCF1;
+    border: 0.5px solid #07A423;
+}
+
+.gap-6 {
+    gap: 6px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.pt-102 {
+    padding-top: 102px;
+}
+
+.bottom-134 {
+    bottom: 134px;
+}
+
+.top-86 {
+    top: 86px;
+}
+
+.left-70 {
+    left: -70px;
+}
+
 .mb-120 {
     margin-bottom: 120px;
+}
+
+/***** slider *****/
+.slick-track {
+    display: flex !important;
+    gap: 80px !important;
+    align-items: center !important;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
 }
 
 /***** DOWNLOAD SED APP *****/
