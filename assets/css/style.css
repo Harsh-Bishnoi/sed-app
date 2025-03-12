@@ -262,6 +262,11 @@
 .small-box {
     border-radius: 6px;
     padding: 10px 12px;
+    transition: all 200ms linear;
+}
+
+.small-box:hover {
+    transform: translateY(-5px);
 }
 
 .max-w-598 {
