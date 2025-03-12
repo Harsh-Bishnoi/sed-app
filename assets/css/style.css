@@ -137,7 +137,12 @@
 .bg-img {
     background-image: url(../images/png/header-bg-img.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: bottom;
+    background-size: 100% 100%;
+}
+
+.min-h-818 {
+    min-height: 818px !important;
 }
 
 .max-w-426 {
@@ -338,6 +343,10 @@
     .img-box {
         position: absolute;
     }
+
+    .pl-45 {
+        padding-left: 45px !important;
+    }
 }
 
 @media (max-width:1044.98px) {
@@ -373,6 +382,7 @@
     .show-navbar {
         right: 0 !important;
     }
+
 }
 
 @media (max-width:575.98px) {
@@ -380,8 +390,4 @@
         padding-top: 40px;
         padding-bottom: 40px;
     }
-}
-
-.rotate-30 {
-    transform: rotate(30%);
 }
