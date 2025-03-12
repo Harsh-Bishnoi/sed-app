@@ -5,6 +5,10 @@
     max-width: 1240px !important;
 }
 
+.max-w-1320 {
+    max-width: 1320px !important;
+}
+
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -90,7 +94,7 @@
     padding-bottom: 14px;
 }
 
-/* line height */
+/***** line height *****/
 
 .lh-100 {
     line-height: 100%;
@@ -100,15 +104,78 @@
     line-height: 120%;
 }
 
+.lh-135 {
+    line-height: 135%;
+}
+
 .lh-150 {
     line-height: 150%;
 }
 
-/* header */
+/***** letter spacing *****/
+.letter-spacing-2 {
+    letter-spacing: 2px !important;
+}
+
+/***** header *****/
 .bg-img {
     background-image: url(../images/png/header-bg-img.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/***** DOWNLOAD SED APP *****/
+.box {
+    max-width: 1320px;
+    border-radius: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: linear-gradient(180deg, #2F4FB6 0%, #152350 100%);
+}
+
+.max-w-555 {
+    max-width: 555px;
+}
+
+.max-w-402 {
+    max-width: 402px;
+}
+
+.py-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.opacity-10 {
+    opacity: 10%;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.small-box {
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+
+.max-w-598 {
+    max-width: 598px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.gap-16 {
+    gap: 16px;
 }
 
 @media (max-width:991.98px) {
@@ -129,5 +196,12 @@
 
     .show-navbar {
         right: 0 !important;
+    }
+}
+
+@media (max-width:575.98px) {
+    .py-80 {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }

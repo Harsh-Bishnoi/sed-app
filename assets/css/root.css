@@ -11,6 +11,7 @@
     --color-black: black;
     --color-dark-black: #010101;
     --color-blue: #294B78;
+    --color-light-white: #FCFCFC;
 }
 
 .font-family-primary {
@@ -48,4 +49,14 @@
 
 .color-blue {
     color: var(--color-blue);
+}
+
+.color-light-white {
+    color: var(--color-light-white);
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-lg: 32px;
+    }
 }
