@@ -21,6 +21,10 @@
     --light-black: #43434DCC;
     --color-grey: #43434D;
     --color-green: #01981C;
+    --light-green: #07A423;
+    --linear-gradient-primary: linear-gradient(180deg, #2F4FB6 0%, #152350 100%);
+    --linear-gradient-second: -webkit-linear-gradient(180deg, #2F4FB6 0%, #152350 100%);
+
 }
 
 .font-family-primary {
@@ -101,9 +105,15 @@
     background-color: var(--footer-bg-light);
 }
 
+@media (max-width:1120.98px) {
+    :root {
+        --fs-xl: 56px;
+    }
+}
+
 @media (max-width:575.98px) {
     :root {
         --fs-lg: 32px;
-        --fs-xl: 34px;
+        --fs-xl: 33px;
     }
 }
