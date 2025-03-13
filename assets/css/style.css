@@ -231,6 +231,10 @@
     max-width: 71px;
 }
 
+.slider-img {
+    filter: invert(1);
+}
+
 /***** DOWNLOAD SED APP *****/
 .box {
     max-width: 1320px;
