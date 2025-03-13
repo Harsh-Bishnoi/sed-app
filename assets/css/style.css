@@ -60,32 +60,34 @@
     color: var(--color-white) !important;
 }
 
-.text-hover {
-    padding: 2px 0;
+.navbar-link {
     position: relative;
-    transition: all 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
 }
 
-.text-hover:hover {
-    color: var(--color-blue);
-}
-
-.text-hover::before {
-    content: '';
-    background: linear-gradient(90deg, #294b7800 0%, #294B78 50%, rgba(41, 75, 120, 0) 100%);
+.navbar-link::after {
+    content: "";
     position: absolute;
-    bottom: 0px;
+    left: 50%;
+    bottom: -2px;
     width: 0;
     height: 2px;
-    transition: all 0.3s ease-in-out;
+    background: linear-gradient(90deg, rgba(41, 75, 120, 0) 0%, #294B78 50%, rgba(41, 75, 120, 0) 100%);
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.navbar-link:hover {
+    color: var(--color-blue) !important;
+}
+
+.navbar-link:hover::after {
+    width: 100%;
+    left: 0;
 }
 
 .border-radius-65 {
     border-radius: 65px !important;
-}
-
-.text-hover:hover::before {
-    width: 100%;
 }
 
 .border-radius-24 {
