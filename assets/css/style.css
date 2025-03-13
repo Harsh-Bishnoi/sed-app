@@ -235,6 +235,10 @@
     filter: invert(1);
 }
 
+.slider-img:hover {
+    filter: invert(0);
+}
+
 /***** DOWNLOAD SED APP *****/
 .box {
     max-width: 1320px;
